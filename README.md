@@ -1,4 +1,4 @@
-# RockPaperSickors
+# RockPaperScissors
 ## Родімкіна Надія
 *наставник*
 ## Погребняк Ілля
