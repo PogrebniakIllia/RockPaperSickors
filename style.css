@@ -8,13 +8,14 @@
 body {
     font-family: "Inter";
     background-color: #303C56;
+    box-sizing: content-box;
 }
 
 .start {
     margin-top: 20px;
 }
 
-.title {
+.home {
     border-radius: 6px;
     font-weight: 400;
     margin: 0 auto;
@@ -22,6 +23,9 @@ body {
     width: 808px;
     height: 142px;
     background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .pad {
     height: 41px;
@@ -31,4 +35,66 @@ body {
     height: 106px;
     background-color: #FFFFFF;
     border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rock{
+    height: 135px;
+    width: 130px;
+    background-image: url('img/Rock.png');
+    position: absolute;
+    top: 230px;
+    left: 320px;
+    cursor: pointer;
+}
+
+.rock:hover{
+    border: 7px solid #FFF92F;
+    height: 135px;    
+    width: 130px;
+    border-radius: 50%;
+}
+
+.paper{
+    height: 135px;
+    width: 134px;
+    background-image: url('img/Paper.png');
+    position: absolute;
+    top: 50px;
+    left: 170px;
+    cursor: pointer;
+}
+
+.paper:hover{
+    border: 7px solid #FFF92F;
+    height: 135px;    
+    width: 130px;
+    border-radius: 50%;
+}
+
+.scissors{
+    height: 135px;
+    width: 134px;
+    background-image: url('img/Scissors.png');
+    position: absolute;
+    top: 50px;
+    left: 465px;
+    cursor: pointer;
+}
+
+.scissors:hover{
+    border: 7px solid #FFF92F;
+    height: 135px;    
+    width: 130px;
+    border-radius: 50%;
+}
+
+.game{
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    position: relative;
 }
