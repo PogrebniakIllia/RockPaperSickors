@@ -41,6 +41,88 @@ body {
     align-items: center;
 }
 
+.Player_name {
+    width: 150px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 70px;
+    left: 26px;
+    font-size: 36px;
+}
+
+.Ai_name {
+    width: 150px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 70px;
+    left: 590px;
+    font-size: 36px;
+}
+
+.Justice {
+    width: 150px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    font-size: 36px;
+}
+
+.Result {
+    width: 300px;
+    height: 100px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 230px;
+    font-size: 48px;
+}
+
+.Again {
+    width: 300px;
+    height: 70px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 250px;
+    left: 230px;
+    font-size: 48px;
+    cursor: pointer;
+}
+
+.Again:hover{
+    border: 7px solid #0000c5;
+    height: 70px;    
+    width: 300px;
+}
+
 .rock{
     height: 135px;
     width: 130px;
@@ -75,6 +157,24 @@ body {
     border-radius: 50%;
 }
 
+.paper_attack{
+    height: 131px;
+    width: 136px;
+    background-image: url('img/Paper_right.png');
+    position: absolute;
+    top: 150px;
+    left: 30px;
+}
+
+.paper_result{
+    height: 136px;
+    width: 131px;
+    background-image: url('img/Paper_up.png');
+    position: absolute;
+    top: 150px;
+    left: 30px;
+}
+
 .scissors{
     height: 135px;
     width: 134px;
@@ -92,7 +192,41 @@ body {
     border-radius: 50%;
 }
 
+.Ai_attack{
+    height: 135px;
+    width: 130px;
+    background-image: url('img/Ai_wait.png');
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    cursor: pointer;
+}
+
+.Ai_result{
+    height: 135px;
+    width: 130px;
+    background-image: url('img/Rock.png');
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    cursor: pointer;
+}
+
 .game{
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.moment{
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.result{
     width: 800px;
     height: 400px;
     margin: 20px auto;
