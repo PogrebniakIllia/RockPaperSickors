@@ -35,6 +35,15 @@ paper.addEventListener('click', function () {
 rock.addEventListener('click', function () {
     start.style.display = 'none';
     mid.style.display = 'block';
+    if (ai == "rock") {
+        console.log("Draw!");
+    }
+    if (ai == "scissors") {
+        console.log("Player Win!");
+    }
+    if (ai == "paper") {
+        console.log("Ai Win!");
+    }
 
     setTimeout(function () {
         end.style.display = 'block'
@@ -45,6 +54,15 @@ rock.addEventListener('click', function () {
 scissors.addEventListener('click', function () {
     start.style.display = 'none';
     mid.style.display = 'block';
+    if (ai == "scissors") {
+        console.log("Draw!");
+    }
+    if (ai == "paper") {
+        console.log("Player Win!");
+    }
+    if (ai == "rock") {
+        console.log("Ai Win!");
+    }
 
     setTimeout(function () {
         end.style.display = 'block'
