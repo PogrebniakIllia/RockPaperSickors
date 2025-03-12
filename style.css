@@ -165,7 +165,7 @@ body {
 .rock{
     height: 135px;
     width: 130px;
-    background-image: url('../img/rock.png');
+    background-image: url('./img/rock.png');
     position: absolute;
     top: 230px;
     left: 320px;
@@ -182,7 +182,7 @@ body {
 .paper{
     height: 135px;
     width: 134px;
-    background-image: url('../img/paper.png');
+    background-image: url('./img/paper.png');
     position: absolute;
     top: 50px;
     left: 170px;
@@ -199,7 +199,7 @@ body {
 .paper-attack{
     height: 131px;
     width: 136px;
-    background-image: url('../img/paper_right.png');
+    background-image: url('./img/paper_right.png');
     position: absolute;
     top: 150px;
     left: 30px;
@@ -208,7 +208,7 @@ body {
 .paper-result{
     height: 136px;
     width: 131px;
-    background-image: url('../img/paper_up.png');
+    background-image: url('./img/paper_up.png');
     position: absolute;
     top: 150px;
     left: 30px;
@@ -217,7 +217,7 @@ body {
 .scissors{
     height: 135px;
     width: 134px;
-    background-image: url('../img/scissors.png');
+    background-image: url('./img/scissors.png');
     position: absolute;
     top: 50px;
     left: 465px;
@@ -234,7 +234,7 @@ body {
 .ai-attack{
     height: 135px;
     width: 130px;
-    background-image: url('../img/ai_wait.png');
+    background-image: url('./img/ai_wait.png');
     position: absolute;
     top: 150px;
     left: 600px;
@@ -243,7 +243,7 @@ body {
 .ai-result{
     height: 135px;
     width: 130px;
-    background-image: url('../img/rock.png');
+    background-image: url('./img/rock.png');
     position: absolute;
     top: 150px;
     left: 600px;
