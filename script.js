@@ -27,18 +27,18 @@ paper.addEventListener('click', function () {
     mid.style.display = 'block';
     point.innerHTML = total;
     if (ai == "paper") {
-        aiResult.style.backgroundImage = 'url(img/paper_up.png)';
+        aiResult.style.backgroundImage = 'url(./img/Paper_up.png)';
         resultDraw.style.display = 'flex';
         console.log("Draw!");
     }
     if (ai == "rock") {
-        aiResult.style.backgroundImage = 'url(img/rock.png)';
+        aiResult.style.backgroundImage = 'url(./img/Rock.png)';
         resultPlayer.style.display = 'flex';
         total += 1;
         console.log("Player Win!");
     }
     if (ai == "scissors") {
-        aiResult.style.backgroundImage = 'url(img/scissors_up.png)';
+        aiResult.style.backgroundImage = 'url(./img/Scissors_up.png)';
         resultAi.style.display = 'flex';
         console.log("Ai Win!");
     }
@@ -53,23 +53,23 @@ paper.addEventListener('click', function () {
 
 rock.addEventListener('click', function () {
     start.style.display = 'none';
-    paperAttack.style.backgroundImage = 'url(img/rock_right.png)';
+    paperAttack.style.backgroundImage = 'url(./img/Rock_right.png)';
     mid.style.display = 'block';
     point.innerHTML = total;
-    paperResult.style.backgroundImage = 'url(img/rock.png)';
+    paperResult.style.backgroundImage = 'url(./img/Rock.png)';
     if (ai == "rock") {
-        aiResult.style.backgroundImage = 'url(img/rock.png)';
+        aiResult.style.backgroundImage = 'url(./img/Rock.png)';
         resultDraw.style.display = 'flex';
         console.log("Draw!");
     }
     if (ai == "scissors") {
-        aiResult.style.backgroundImage = 'url(img/scissors_up.png)';
+        aiResult.style.backgroundImage = 'url(./img/Scissors_up.png)';
         resultPlayer.style.display = 'flex';
         total += 1;
         console.log("Player Win!");
     }
     if (ai == "paper") {
-        aiResult.style.backgroundImage = 'url(img/paper_up.png)';
+        aiResult.style.backgroundImage = 'url(./img/Paper_up.png)';
         resultAi.style.display = 'flex';
         console.log("Ai Win!");
     }
@@ -83,23 +83,23 @@ rock.addEventListener('click', function () {
 
 scissors.addEventListener('click', function () {
     start.style.display = 'none';
-    paperAttack.style.backgroundImage = 'url(img/scissors_right.png)';
+    paperAttack.style.backgroundImage = 'url(./img/Scissors_right.png)';
     mid.style.display = 'block';
     point.innerHTML = total;
-    paperResult.style.backgroundImage = 'url(img/scissors_up.png)';
+    paperResult.style.backgroundImage = 'url(./img/Scissors_up.png)';
     if (ai == "scissors") {
-        aiResult.style.backgroundImage = 'url(img/scissors_up.png)';
+        aiResult.style.backgroundImage = 'url(./img/Scissors_up.png)';
         resultDraw.style.display = 'flex';
         console.log("Draw!");
     }
     if (ai == "paper") {
-        aiResult.style.backgroundImage = 'url(img/paper_up.png)';
+        aiResult.style.backgroundImage = 'url(./img/Paper_up.png)';
         resultPlayer.style.display = 'flex';
         total += 1;
         console.log("Player Win!");
     }
     if (ai == "rock") {
-        aiResult.style.backgroundImage = 'url(img/rock.png)';
+        aiResult.style.backgroundImage = 'url(./img/Rock.png)';
         resultAi.style.display = 'flex';
         console.log("Ai Win!");
     }
